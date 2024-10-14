@@ -19,8 +19,8 @@ body {
   input {
     display: block;
     margin: 10px 0 10px 0;
-
+  }
   span {
-    background: #ffffff;
-  color: rgb(201, 158, 14);
+    background-color: rgb(245, 130, 9);
+    color: rgb(18, 216, 226);
   }
