@@ -40,5 +40,66 @@
 Войти
 </button>
 </form>
+
+<form method="post" action="/login">
+
+<div>Для регистрации заполните поля ниже:</div>
+
+<label>
+
+  <span>Введите логин:</span>
+
+  <input 
+  type="text"
+  name="login"
+  placeholder="Ваша почта"  
+  minlength="5"
+  maxlength="10"
+  />
+</label>
+
+<label>
+
+  <span>Введите email:</span>
+
+  <input 
+  type="email"
+  name="login"
+  placeholder="Ваша почта"  
+  minlength="5"
+  />
+</label>
+
+<label>
+
+  <span>Пароль:</span>
+
+  <input 
+  type="password"
+  name="password"
+  placeholder="Введите пароль"  
+  minlength="5"
+  maxlength="10"
+  />
+</label>
+
+<label>
+
+  <span>Подтвердите пароль:</span>
+
+  <input 
+  type="password"
+  name="password"
+  placeholder="Введите пароль ещё раз"  
+  minlength="5"
+  maxlength="10"
+  />
+</label>
+
+
+<button type="submit">
+  Зарегестрироваться
+  </button>
+</form>
     </body>
 </html>
