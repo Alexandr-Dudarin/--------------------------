@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+  }
+
+  button {
+    background: rgb(35, 73, 126);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.7s;
+    margin: 10px 0 0 0;
+  }
+  
+  button:hover {
+    background: rgb(89, 5, 126);
+  }
+
+  input {
+    display: block;
+    margin: 10px 0 10px 0;
+
+  span {
+    background: #ffffff;
+  color: rgb(201, 158, 14);
+  }
